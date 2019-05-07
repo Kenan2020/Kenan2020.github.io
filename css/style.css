@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+    margin: 5px auto;
+    font-family: sans-serif
+
+}
+
+header, section, footer{
+    margin: 5px;
+    padding: 15px;
+    background-color: #F3F3F3;
+    border: 1px solid #EEE
+}
+header{
+    text-align: center;
+    border-radius: 15px 15px 0 0
+}
+
+header a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 15px;
+    color: #333;
+    font-weight: bold
+}
+
+header a:hover{
+    background-color: #CCC;
+    border-bottom: 3px solid #606060
+}
+
+section{
+    display: flex
+}
+section .about , section .details{
+    width: 39%;
+    background-color: #FFF;
+    border: 1px solid #EEE;
+    border-radius: 15px;
+    margin: 12px;
+    padding: 10px
+}
+
+section .image{
+    width: 12%;
+    margin: 12px;
+    padding: 10px
+}
+
+section .image img{
+    width: 150px;
+    border: 4px double #DDD;
+    border-radius: 50%
+}
+
+.about h3, .details h3, footer h3{
+    font-size: 20px;
+    color: #22A39F;
+    font-weight: normal;
+    text-decoration: underline
+}
+
+.about p, .details p{
+    font-size: 16px;
+    color: #434242;
+    line-height: 1.7
+}
+
+.about span{
+    font-weight: bold;
+    display: block;
+    text-decoration: underline
+}
+
+.about ul{
+    font-size: 16px;
+    color: #434242;
+    line-height: 1.7
+}
+
+.details p span{
+    font-weight: bold;
+    text-decoration: underline
+}
+
+.dci{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url("../img/dci_bg.jpg");
+    background-size: 1350px 505px
+}
+
+.jc{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url("../img/jc_bg.jpg");
+    background-size: 1350px 505px;
+}
+
+.text{
+    width: 300px;
+    height: 180px;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 25px;
+    font-weight: bold;
+    line-height: 1.7;
+    color: #434242;
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    border: 5px ridge #CCC;
+    border-radius: 10px
+}
+
+footer{
+    width: 97%;
+    border-radius: 0 0 15px 15px;
+    position: fixed;
+}
+
+footer h3, footer a{
+    display: inline;
+    margin: 5px;
+    padding: 0 5px
+}
+
+.fa{
+    font-size: 30px;
+    color: #999
+}
+
+.fa-facebook-square:hover{
+    color: #3B5998;
+    cursor: pointer
+}
+
+.fa-twitter-square:hover{
+    color: #1DA1F2;
+    cursor: pointer
+}
+
+.fa-linkedin-square:hover{
+    color: #0077B5;
+    cursor: pointer
+}
+
+.fa-github:hover{
+    color: #24292E;
+    cursor: pointer
+}
+
+.fa-youtube-square:hover{
+    color: #FF0000;
+    cursor: pointer
+}
+
