@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact us</a>
+                <a class="active" href="form.html">Book Your Stay</a>
+            </nav>
+        </header>
+        <form class="form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <select>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Ms.">Ms.</option>
+                </select>
+                <label>First Name:</label>
+                <input type="text" name="fname" placeholder="Enter Your First Name" required><span>*</span>
+                <label>Last Name:</label>
+                <input type="text" name="lname" placeholder="Enter Your Last Name" required><span>*</span>
+                <label>Phone:</label>
+                <input type="tel" name="phone" placeholder="Enter Your Phone Number" required><span>*</span>
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="Enter Your E-Mail Address">
+                <label>Check-in:</label>
+                <input type="date" name="check-in" placeholder="Check-in" required><span>*</span>
+                <label>Check-out:</label>
+                <input type="date" name="check-out" placeholder="Check-out" required><span>*</span>
+                <label>Adult:</label>
+                <input type="number" name="Persons" min="0" placeholder="Enter How Many Persons" >
+                <label>Children:</label>
+                <input type="number" name="Children" min="0" placeholder="Enter How Many Childern">        
+            </fieldset>
+            <fieldset>
+                <legend>Payment Type:<span>*</span></legend>
+                    <input type="radio" name="payment" value="Cash" required>Cash<br>
+                    <input type="radio" name="payment" value="Credit Card">Credit Card
+            </fieldset>
+            <fieldset>
+                <legend>Room Type:<span>*</span></legend>
+                    <input type="radio" name="room" value="Family Room" required>Family Room<br>
+                    <input type="radio" name="room" value="Standard Room" required>Standard Room<br>
+                    <input type="radio" name="room" value="Luxury Room" required>Luxury Room<br>
+                    <input type="radio" name="room" value="Deluxe Room" required>Deluxe Room<br>
+                    <input type="radio" name="room" value="Single Room" required>Single Room<br>
+
+            </fieldset>
+            <input type="submit" value="Send Your Data!">
+            <p>Required Fields are marked<span>*</span></p>
+
+        </form>
+        <footer class="footer">
+            <p>Copyright &copy; 2019 All rights reserved</p>
+        </footer>
+    
+
+
+    </body>
+</html>
